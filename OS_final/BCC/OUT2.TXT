@@ -1,0 +1,119 @@
+start
+Startujemo A
+,
+Vratimo se u main()
+
+Startujemo B
+Vratimo se u main()
+
+Startujemo C
+Vratimo se u main()
+main:0
+main:1000
+main:2000
+main:3000
+main:4000
+main:5000
+main:6000
+main:7000
+main:8000
+main:9000
+main:0
+main:1000
+main:2000
+main:3000
+main:4000
+main:5000
+main:6000
+main:7000
+main:8000
+main:9000
+main:0
+main:1000
+main:2000
+main:3000
+main:4000
+main:5000
+main:6000
+main:7000
+main:8000
+main:9000
+
+------------------------------
+kraj -> vrednost semafora je: 1C19 ide na semafor, vrednost pre C je 1
+A17 ide na semafor, vrednost pre A je 1
+D16 ide na semafor, vrednost pre D je 1
+B14 ide na semafor, vrednost pre B je 1
+B14 napusta semafor, povratna vrednost za wait je: 1, a val> je 0 
+D16 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+A17 napusta semafor, povratna vrednost za wait je: 0, a val> je 0 
+C19 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+A13 ide na semafor, vrednost pre A je 0
+D12 ide na semafor, vrednost pre D je 1
+D12 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+A13 napusta semafor, povratna vrednost za wait je: 0, a val> je 0 
+A9 ide na semafor, vrednost pre A je 0
+D8 ide na semafor, vrednost pre D je 1
+B6 ide na semafor, vrednost pre B je 0
+D8 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+A9 napusta semafor, povratna vrednost za wait je: 0, a val> je -1 
+A5 ide na semafor, vrednost pre A je -1
+D4 ide na semafor, vrednost pre D je 1
+B2 ide na semafor, vrednost pre B je -1
+D4 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+A5 napusta semafor, povratna vrednost za wait je: 0, a val> je -2 
+D20 ide na semafor, vrednost pre D je 1
+B18 ide na semafor, vrednost pre B je -2
+C15 ide na semafor, vrednost pre C je 1
+D20 napusta semafor, povratna vrednost za wait je: 0, a val> je 1 
+D16 ide na signal, vrednost signal D je -3
+D16 napusta signal, povratna vrednost za signal je: 0, a val> je 2 
+C19 ide na signal, vrednost signal C je -3
+C19 napusta signal, povratna vrednost za signal je: 0, a val> je 3 
+C11 ide na semafor, vrednost pre C je 3
+B10 ide na semafor, vrednost pre B je -3
+C15 napusta semafor, povratna vrednost za wait je: 0, a val> je 3 
+C7 ide na semafor, vrednost pre C je 3
+D8 ide na signal, vrednost signal D je -4
+D8 napusta signal, povratna vrednost za signal je: 0, a val> je 4 
+A9 ide na signal, vrednost signal A je -4
+A9 napusta signal, povratna vrednost za signal je: 0, a val> je -3 
+C11 napusta semafor, povratna vrednost za wait je: 0, a val> je 4 
+B6 napusta semafor, povratna vrednost za wait je: 1, a val> je -3 
+C3 ide na semafor, vrednost pre C je 4
+D4 ide na signal, vrednost signal D je -3
+D4 napusta signal, povratna vrednost za signal je: 0, a val> je 5 
+A5 ide na signal, vrednost signal A je -3
+A5 napusta signal, povratna vrednost za signal je: 0, a val> je -2 
+B2 napusta semafor, povratna vrednost za wait je: 1, a val> je -2 
+C7 napusta semafor, povratna vrednost za wait je: 0, a val> je 5 
+B14 ide na signal, vrednost signal B je -2
+B14 napusta signal, povratna vrednost za signal je: 0, a val> je -1 
+B18 napusta semafor, povratna vrednost za wait je: 1, a val> je -1 
+C3 napusta semafor, povratna vrednost za wait je: 0, a val> je 5 
+D20 ide na signal, vrednost signal D je -1
+D20 napusta signal, povratna vrednost za signal je: 0, a val> je 6 
+A17 ide na signal, vrednost signal A je -1
+A17 napusta signal, povratna vrednost za signal je: 0, a val> je 0 
+B10 napusta semafor, povratna vrednost za wait je: 1, a val> je 0 
+D12 ide na signal, vrednost signal D je 0
+D12 napusta signal, povratna vrednost za signal je: 0, a val> je 7 
+C15 ide na signal, vrednost signal C je 0
+C15 napusta signal, povratna vrednost za signal je: 0, a val> je 8 
+A13 ide na signal, vrednost signal A je 0
+A13 napusta signal, povratna vrednost za signal je: 0, a val> je 1 
+C11 ide na signal, vrednost signal C je 1
+C11 napusta signal, povratna vrednost za signal je: 0, a val> je 9 
+C7 ide na signal, vrednost signal C je 1
+C7 napusta signal, povratna vrednost za signal je: 0, a val> je 10 
+B18 ide na signal, vrednost signal B je 1
+B18 napusta signal, povratna vrednost za signal je: 0, a val> je 2 
+C3 ide na signal, vrednost signal C je 2
+C3 napusta signal, povratna vrednost za signal je: 0, a val> je 11 
+B6 ide na signal, vrednost signal B je 2
+B6 napusta signal, povratna vrednost za signal je: 0, a val> je 3 
+B2 ide na signal, vrednost signal B je 3
+B2 napusta signal, povratna vrednost za signal je: 0, a val> je 4 
+B10 ide na signal, vrednost signal B je 4
+B10 napusta signal, povratna vrednost za signal je: 0, a val> je 5 
+Semafori: sem1 je 5, sem2 je 11
